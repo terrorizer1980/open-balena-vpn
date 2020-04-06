@@ -1,4 +1,18 @@
 - commits:
+    - subject: resolve service instance count from podinfo
+      hash: 2cb39faa9c7e492c0fe5e7570fa34570c8e4bc0d
+      body: ''
+      footer:
+        Co-Authored-By: Page- <pjgazzard@googlemail.com>
+        co-authored-by: Page- <pjgazzard@googlemail.com>
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: ab77 <anton@balena.io>
+        signed-off-by: ab77 <anton@balena.io>
+      author: ab77
+  version: 9.13.0
+  date: 2020-04-06T19:17:12.817Z
+- commits:
     - subject: 'circleci: fix/optimise deploy to staging job'
       hash: 7367866b2dbe4cd3eeed5300b8a96acce095d41b
       body: ''
