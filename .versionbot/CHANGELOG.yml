@@ -1,4 +1,16 @@
 - commits:
+    - subject: handle zero values correctly
+      hash: 4a83bf515a243a7b263641bfa1ef2165dd4e5901
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: ab77 <anton@balena.io>
+        signed-off-by: ab77 <anton@balena.io>
+      author: ab77
+  version: 9.13.1
+  date: 2020-04-08T16:16:13.387Z
+- commits:
     - subject: resolve service instance count from podinfo
       hash: 2cb39faa9c7e492c0fe5e7570fa34570c8e4bc0d
       body: ''
