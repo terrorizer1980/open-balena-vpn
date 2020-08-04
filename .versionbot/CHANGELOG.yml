@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update to use api v6
+      hash: a4c05ec7c2d15ab721fa731396c1c141b22e352d
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Pagan Gazzard
+      nested: []
+  version: 9.16.0
+  date: 2020-08-04T09:52:40.948Z
+- commits:
     - subject: Update to pinejs-client-request 7.x
       hash: b9bd46929dc23b551c9b136b128c697754ca68a7
       body: |
