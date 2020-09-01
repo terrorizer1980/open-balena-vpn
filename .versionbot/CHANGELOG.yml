@@ -1,4 +1,108 @@
 - commits:
+    - subject: update node/npm dependencies
+      hash: 236d1cbeca55c0b067b2543b8590ad865aaeb3cd
+      body: |
+        * Update pinejs-client-request from 7.0.0 to 7.1.0
+        * Update typed-error from 3.2.0 to 3.2.1
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Will Boyce <will@balena.io>
+        signed-off-by: Will Boyce <will@balena.io>
+      author: Will Boyce
+      nested:
+        - commits:
+            - subject: Update dependencies
+              hash: c46281f165eb6b05def4bd9eed82df37629c56e7
+              body: |
+                Update pinejs-client-core from 6.0.0 to 6.1.0
+              footer:
+                Change-type: minor
+                change-type: minor
+              author: Pagan Gazzard
+              nested:
+                - commits:
+                    - subject: Add support for using named ids
+                      hash: f6035bf5240e8aea1b92997d976cebd9a1857a61
+                      body: ''
+                      footer:
+                        Change-type: minor
+                        change-type: minor
+                      author: Pagan Gazzard
+                  version: pinejs-client-js-6.1.0
+                  date: 2020-07-21T10:31:09.457Z
+                - commits:
+                    - subject: Drop unnecessary async from request()
+                      hash: dfd4c8c39327fe2e1706a8180e3c3f56d4229b77
+                      body: |
+                        This allows consumers like pinejs-client-supertest
+                        to have all the methods returning different Promise
+                        types based solely on the implementation of the
+                        request() method.
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+                        signed-off-by: Thodoris Greasidis <thodoris@balena.io>
+                      author: Thodoris Greasidis
+                  version: pinejs-client-js-6.0.1
+                  date: 2020-06-19T16:55:46.305Z
+          version: pinejs-client-request-7.1.0
+          date: 2020-07-28T10:43:21.213Z
+        - commits:
+            - subject: Increase default timeout to 59s
+              hash: fc17266fe147bf40086feb81b6c96a344bf74f29
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Pagan Gazzard
+              nested: []
+          version: pinejs-client-request-7.0.1
+          date: 2020-07-28T10:29:41.385Z
+        - commits:
+            - subject: Update dependencies
+              hash: dc41949015399154efb4529183daa0dfc9269b52
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Pagan Gazzard
+          version: typed-error-3.2.1
+          date: 2020-08-05T12:34:06.377Z
+    - subject: 'update prometheus metrics agents (node exporter, process exporter)'
+      hash: 72913842ff19b39b9f9d886286aba8acc43d548b
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Will Boyce <will@balena.io>
+        signed-off-by: Will Boyce <will@balena.io>
+      author: Will Boyce
+      nested: []
+    - subject: update haproxy to v2.2
+      hash: f063b6ade8e0694926faf32da68b770601ac1113
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Will Boyce <will@balena.io>
+        signed-off-by: Will Boyce <will@balena.io>
+      author: Will Boyce
+      nested: []
+    - subject: convert more promise chains to async/await
+      hash: a29566b4f8483f5bcb23f7e4e1adb12781e04915
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Will Boyce <will@balena.io>
+        signed-off-by: Will Boyce <will@balena.io>
+      author: Will Boyce
+      nested: []
+  version: 9.16.1
+  date: 2020-09-01T09:56:09.845Z
+- commits:
     - subject: Update dependencies
       hash: 8fd551e584430e2f6ad7a3f07da87fbc6d75e6e2
       body: |
