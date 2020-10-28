@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'Tests: remove unnecessary `BALENA_ROOT_CA` env var'
+      hash: 5769c06041de4cdaa585a0218c6cabd002f6632e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+      nested: []
+  version: 9.17.1
+  date: 2020-10-28T20:35:39.006Z
+- commits:
     - subject: Update open-balena-base to 11.0.0
       hash: 06f0f0a6af1bbd2a0b7259ef618d09f2b926febf
       body: |
