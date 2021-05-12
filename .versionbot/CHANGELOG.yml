@@ -1,4 +1,15 @@
 - commits:
+    - subject: Add test
+      hash: 53171e6a8eb61a6c1bbc051b4d92bd41869941c8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Dan Goodman
+      nested: []
+  version: 9.17.11
+  date: 2021-05-12T13:48:30.297Z
+- commits:
     - subject: Update open-balena-base to 11.1.2
       hash: 6a010a804e01986f9fad941eff905b94aef6e2f6
       body: |
