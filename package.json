@@ -15,7 +15,7 @@
     "test": "docker build -t test-balena-vpn . && IMAGE_NAME=test-balena-vpn ./automation/test.sh"
   },
   "dependencies": {
-    "@balena/node-metrics-gatherer": "^5.7.5",
+    "@balena/node-metrics-gatherer": "^5.7.6",
     "@sentry/node": "^5.30.0",
     "bluebird": "^3.7.2",
     "compression": "^1.7.4",
