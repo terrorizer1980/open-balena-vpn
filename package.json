@@ -15,7 +15,7 @@
     "test": "docker build -t test-balena-vpn . && IMAGE_NAME=test-balena-vpn ./automation/test.sh"
   },
   "dependencies": {
-    "@balena/node-metrics-gatherer": "^5.7.5",
+    "@balena/node-metrics-gatherer": "^5.7.6",
     "@sentry/node": "^5.30.0",
     "bluebird": "^3.7.2",
     "compression": "^1.7.4",
@@ -23,7 +23,7 @@
     "eventemitter3": "^4.0.7",
     "express": "^4.17.1",
     "lodash": "^4.17.21",
-    "memoizee": "^0.4.15",
+    "memoizee": "^0.4.16",
     "morgan": "^1.10.0",
     "netmask": "^2.0.2",
     "node-tunnel": "^4.0.1",
@@ -33,7 +33,7 @@
     "source-map-support": "^0.5.20",
     "telnet-openvpn": "^0.1.9",
     "typed-error": "^3.2.1",
-    "winston": "^3.3.3"
+    "winston": "^3.3.4"
   },
   "devDependencies": {
     "@balena/lint": "^6.1.1",
